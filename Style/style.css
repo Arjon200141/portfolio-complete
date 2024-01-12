@@ -186,23 +186,49 @@ header {
     margin-top: 0%;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
 .resme-item-description {
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 15px;
 }
-footer{
+
+footer {
     background-color: #FFF8F3;
     display: flex;
+    gap: 120px;
     padding: 130px 230px;
     margin-top: 130px;
 }
+
+.footer-column {
+    width: 50%;
+}
+
+.Contact input[type='text'],.Contact input[type='email'],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.social-link a{
+    margin: 24px;
+}
+
